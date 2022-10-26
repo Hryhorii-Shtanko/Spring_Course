@@ -11,7 +11,6 @@ import org.springframework.stereotype.Component;
 @Order(6)
 public class SecurityAspect {
 
-
     @Before("aop.aspects.MyPointcuts.allAddMethods()")
     public void beforeAddSecurityAdvice(JoinPoint joinPoint) {
         System.out.println("beforeGetSecurityAdvice: check rules for getting " + "book/magazine");

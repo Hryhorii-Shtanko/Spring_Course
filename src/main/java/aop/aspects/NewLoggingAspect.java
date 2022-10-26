@@ -19,7 +19,6 @@ public class NewLoggingAspect {
             throw e;
         }
 
-
         System.out.println("aroundReturnBookLoggingAdvice: Book in the library was successfully returned");
 
         return targetMethodResult;

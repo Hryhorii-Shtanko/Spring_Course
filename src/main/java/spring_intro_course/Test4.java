@@ -7,12 +7,6 @@ public class Test4 {
         ClassPathXmlApplicationContext context =
                 new ClassPathXmlApplicationContext("applicationContext2.xml");
 
-//        Dog myDog = context.getBean("myPet",Dog.class);
-//        myDog.setName("Belka");
-
-//        System.out.println(myDog.getName());
-
-//        System.out.println(myDog);
 
         context.close();
     }

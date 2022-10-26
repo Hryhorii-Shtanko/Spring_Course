@@ -1,30 +1,16 @@
 package spring_intro_course;
 
-//@Component
-		//("dogBean")
-public class Dog implements Pet{
 
-	public Dog(){
-		System.out.println("Dog bean is created");
-	}
-	@Override
-	public void say() {
-		System.out.println("Bow-Wow");
+public class Dog implements Pet {
 
-	}
-//@PostConstruct
-//	protected void init(){
-//		System.out.println("Class Dog: init method");
-//	}
-//	@PreDestroy
-//	private void destroy(){
-//		System.out.println("Class Dog: destroy method");
-//	}
+    public Dog() {
+        System.out.println("Dog bean is created");
+    }
 
-//	public String getName(){
-//		return name;
-//	}
-//	public void setName(){
-//		this.name = name;
-//	}
+    @Override
+    public void say() {
+        System.out.println("Bow-Wow");
+
+    }
+
 }

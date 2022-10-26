@@ -6,9 +6,7 @@
 
     <bean id="myPet"
           class="spring_intro_course.Dog"
-          init-method="init"
-          destroy-method="destroy"
-    >
+          >
     </bean>
 
 

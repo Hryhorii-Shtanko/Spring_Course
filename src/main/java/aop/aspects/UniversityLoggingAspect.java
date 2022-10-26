@@ -8,7 +8,6 @@ import org.springframework.stereotype.Component;
 @Aspect
 public class UniversityLoggingAspect {
 
-
     @After("execution(* getStudents())")
     public void afterGetStudentsLoggingAdvice() {
         System.out.println("afterGetStudentsLoggingAdvice: logging normal " +
